@@ -1,7 +1,8 @@
 # Project-2-Automation of Concrete Mix Design.
 ---
 This includes files for Project no. 2
-[Gantt Chart](
+[Scope of Work](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026%2BGroup151-07_Project2_SOW.docx)
+
 
 ---
 ## Overview
