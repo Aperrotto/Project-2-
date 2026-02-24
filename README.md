@@ -2,7 +2,7 @@
 ---
 This includes files for Project no. 2
 ---
-## Project goals:  
+## Overview
 
 The Nebraska Department of Transportation (NDOT) has asked this group to convert the information pertaining to concrete mix design from the given Excel sheet into a Python-based system that accomplishes the same task – providing a weight summary chart for given mix design parameters.  
 
@@ -35,8 +35,16 @@ The main goal of this project is to replicate the logic contained in the Mix Des
 
 ### 4. Prepare and Evaluate Four Concrete Mix Scenarios 
  
+- For this task we must first research concrete designs using the NDOT documents and specifications, along with other resources, to determine the mix parameters for certain types of concrete. Then we can run them through the python model and compare the outputs for the mixes to ensure that our Python model is producing accurate results.
 
-- For this task we must first research concrete designs using the NDOT documents and specifications, along with other resources, to determine the mix parameters for certain types of concrete. Then we can run them through the python model and compare the outputs for the mixes to ensure that our Python model is producing accurate results. 
+## Methods
+The Mix Design Excel spreadsheet developed by the Nebraska Department of Transportation was converted into Python functions within a Jupyter Notebook by carefully rewriting each formula to preserve the original mathematical relationships. Water weight was calculated by multiplying the total cementitious materials by the selected water-cement ratio. Material volumes were determined by dividing weight by the product of specific gravity and the unit weight of water (62.4 lb/ft³). The total aggregate volume was found by subtracting the volumes of cementitious materials, water, and air from 27 cubic feet (one cubic yard of concrete).
+
+Aggregate weights were then computed based on the specified fine and coarse aggregate percentages and their specific gravities, following the same procedure as the Excel sheet to ensure consistency.
+
+The notebook uses sequential user inputs to collect mix design parameters, including material weights, water-cement ratio, air content, aggregate percentages, and specific gravities. It then applies the defined functions to calculate water weight, material volumes, total aggregate volume, and final aggregate weights per cubic yard. Results from four mix scenarios were reviewed and confirmed to match the original spreadsheet calculations and applicable DOT specifications.
+
+  
 ## Mix Scenarios Research and Documentation 
 
 In concrete engineering, designing a mix involves proportioning fine and coarse aggregates, cementitious materials, and water to meet specific performance criteria like workability, strength, and durability. State DOT specifications define these classes to standardize construction for varying environments, from high-traffic pavements to structural bridge components. 
@@ -57,7 +65,6 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Common Use: Bridge decks and bridge approach slabs. 
 
-- Reference: NDOT 2017 Standard Specifications Table 1002.02. 
 
 ### 2. Class 47B-HE Concrete (High Early Strength) 
 
@@ -75,8 +82,6 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Common Use: Rapid-entry pavement repairs and "High Early" strength applications. 
 
-- Reference: Nebraska DOT (2017) Standard Specifications, Section 706 (Concrete Bridge Floors) and Table 1002.02 
-
  
 
 ### 3. Iowa DOT Class C (Structural & Paving) 
@@ -93,7 +98,6 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Minimum Required Strength: 4,000 psi (at 28 days). 
 
-- Reference: Iowa DOT Standard Specifications Section 2403. 
 
 ### 4. Colorado DOT (CDOT) Class D (Structural) 
 
@@ -109,4 +113,4 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Minimum Required Strength: 4,500 psi. 
 
-- Reference: CDOT 2023 Standard Specifications Section 601, Table 601-1. 
+
