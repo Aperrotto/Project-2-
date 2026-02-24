@@ -117,10 +117,36 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Total Aggregate: ~3,000 lb/cy (total dry weight). 
 
-- Target Air Content: 5.0% to 8.0%. 
-
+- Target Air Content: 5.0% to 8.0%.
+  
 - Maximum Water/Cement (w/c) Ratio: 0.44 lb/lb. 
 
 - Minimum Required Strength: 4,500 psi. 
+  
+## Using The Code: 
+Input Parameters:
+
+1.  Cement (lb/cy) 
+
+2.  Max w/c Ratio 
+
+3.  Air Content (%) 
+
+4.  Min. Strength (psi) 
+
+5.  Primary Usage 
+
+Outputs weights:
+
+1. Cement
+2. Fly Ash
+3. Silica Fume
+4. Other SCM
+5. Fine Aggregate
+6. Coarse Aggregate
+7. Other Aggregate
+8. Water
+
+
 
 
