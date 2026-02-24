@@ -21,19 +21,19 @@ The main goal of this project is to replicate the logic contained in the Mix Des
 
 ## Project Tasks: 
 
-1. Translate the Excel Logic into Python 
+### 1. Translate the Excel Logic into Python 
 
 - To do this we must first understand the NDOT Mix Design Excel and find the information to convert to Python. Once all the inputs and calculations/equations have been identified, they can be defined in python using the “def” function. Variables for the material weights, ratios, aggregate proportions, air content adjustments, and conversions will all be made in Python and mirror that of the Excel. 
 
-2. Implement Sequential User Inputs 
+### 2. Implement Sequential User Inputs 
 
 - To do this we must recreate the design inputs from excel and organize them into categories such as general info, cementitious material inputs, design parameters, etc. These inputs will be collected from the user in Python by utilizing “input()” functions. All inputs will be organized in a manner that mirrors the Excel. 
 
-3. Generate a Final Mix Design Output 
+### 3. Generate a Final Mix Design Output 
 
 - To do this, the program will take the user defined inputs from the previous task and use them in the defined functions from task 1. Once all calculations have been completed, we can utilize the “print()” function and f-strings to create a table-like output similar to the Excel.  
 
-4. Prepare and Evaluate Four Concrete Mix Scenarios 
+### 4. Prepare and Evaluate Four Concrete Mix Scenarios 
  
 
 - For this task we must first research concrete designs using the NDOT documents and specifications, along with other resources, to determine the mix parameters for certain types of concrete. Then we can run them through the python model and compare the outputs for the mixes to ensure that our Python model is producing accurate results. 
@@ -41,7 +41,7 @@ The main goal of this project is to replicate the logic contained in the Mix Des
 
 In concrete engineering, designing a mix involves proportioning fine and coarse aggregates, cementitious materials, and water to meet specific performance criteria like workability, strength, and durability. State DOT specifications define these classes to standardize construction for varying environments, from high-traffic pavements to structural bridge components. 
 
-1. Class 47BD Concrete (Bridge Decks) 
+### 1. Class 47BD Concrete (Bridge Decks) 
 
 - This mix is specifically designed for bridge decks, featuring a higher cementitious material content and a lower water-to-cement ratio to increase durability and reduce permeability. 
 
@@ -59,7 +59,7 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Reference: NDOT 2017 Standard Specifications Table 1002.02. 
 
-2. Class 47B-HE Concrete (High Early Strength) 
+### 2. Class 47B-HE Concrete (High Early Strength) 
 
 - This mix is used when rapid strength gain is required, such as pavement repairs or intersections that need to be opened to traffic quickly. 
 
@@ -79,7 +79,7 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
  
 
-3. Iowa DOT Class C (Structural & Paving) 
+### 3. Iowa DOT Class C (Structural & Paving) 
 
 - Iowa's primary structural mix used for highway paving and box culverts. 
 
@@ -95,7 +95,7 @@ In concrete engineering, designing a mix involves proportioning fine and coarse 
 
 - Reference: Iowa DOT Standard Specifications Section 2403. 
 
-4. Colorado DOT (CDOT) Class D (Structural) 
+### 4. Colorado DOT (CDOT) Class D (Structural) 
 
 - A high-density mix used for bridge decks, rails, and structural elements requiring higher strength. 
 
