@@ -1,6 +1,8 @@
 # Project-2-Automation of Concrete Mix Design.
 ---
 This includes files for Project no. 2
+[Gantt Chart](
+
 ---
 ## Overview
 
