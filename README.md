@@ -1,15 +1,15 @@
 # Project-2-Automation of Concrete Mix Design.
 ---
-This includes files for Project no. 2:
-[Gantt Chart](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_GanttChart.xlsx)
-[Scope of Work](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026%2BGroup151-07_Project2_SOW.docx)
-[Annotated Code Document](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_ACD.xlsx)
-[Mix Design](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_MixDesign.docx)
-[Mix 1 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV1.ipynb)
-[Mix 2 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV2.ipynb)
-[Mix 3 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV3.ipynb)
-[Mix 4 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV4.ipynb)
-[Written Report](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_WrittenReport.docx)
+## This includes files for Project no. 2:
+- [Gantt Chart](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_GanttChart.xlsx)
+- [Scope of Work](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026%2BGroup151-07_Project2_SOW.docx)
+- [Annotated Code Document](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_ACD.xlsx)
+- [Mix Design](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_MixDesign.docx)
+- [Mix 1 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV1.ipynb)
+- [Mix 2 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV2.ipynb)
+- [Mix 3 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV3.ipynb)
+- [Mix 4 Code](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_PythonCodeV4.ipynb)
+- [Written Report](https://github.com/Aperrotto/Project-2-/blob/main/CIVE202_Spring2026_Group151-07_Project2_WrittenReport.docx)
 
 ---
 ## Overview
